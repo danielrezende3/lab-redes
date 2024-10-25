@@ -16,7 +16,7 @@ docker build -t danielrezende .
 To run the docker:
 
 ```bash
-docker run -d -p 61439:80 danielrezende
+docker run -d -p 61439:80 --name pensive_yonath danielrezende
 ```
 
 To download the site:
@@ -27,5 +27,11 @@ wget localhost:61439
 To stop the docker:
 
 ```bash
-docker stop container-name
+docker stop pensive_yonath
+```
+
+To remove the container:
+
+```bash
+docker rm -f pensive_yonath
 ```
