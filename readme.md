@@ -1,3 +1,9 @@
+To connect to the elan server:
+
+```bash
+ssh -X  danielrezende2@200.17.141.82  -p  3333
+```
+
 
 To build the docker:
 
