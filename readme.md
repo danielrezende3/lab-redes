@@ -1,3 +1,5 @@
+Credits to Karpathy neural network zero to hero [site](https://karpathy.ai/zero-to-hero.html).
+
 To connect to the elan server:
 
 ```bash
