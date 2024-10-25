@@ -14,7 +14,7 @@ docker build -t danielrezende .
 To run the docker:
 
 ```bash
-docker run -d -p 61439:80 my-nginx-server
+docker run -d -p 61439:80 danielrezende
 ```
 
 To download the site:
